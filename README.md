@@ -4,7 +4,7 @@ Vera is a context-grounded assistant for merchant engagement. It chooses an appr
 
 The project includes a browser-only dashboard backed by **localStorage** and an optional FastAPI challenge service. The dashboard runs without a database, API credentials, or a running Python server. All outreach is simulated; this project does not send WhatsApp messages or contact merchants.
 
-**Live demo:** [vera-ai-orpin.vercel.app](https://vera-ai-ak.vercel.app/) · **Repository:** [Akhilesh6007/Vera-ai](https://github.com/Akhilesh6007/Vera-ai)
+**Live demo:** [vera-ai-ak.vercel.app](https://vera-ai-ak.vercel.app/) · **Repository:** [Akhilesh6007/Vera-ai](https://github.com/Akhilesh6007/Vera-ai)
 
 ## What Vera does
 
