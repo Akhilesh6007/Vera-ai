@@ -23,21 +23,6 @@ The deterministic demo dataset contains **5 categories, 50 merchants, 200 custom
 
 `submission.jsonl` and `demo-data.json` are included as local challenge artifacts. Local heuristic results are not an official judge score.
 
-## Run the browser dashboard
-
-Requires Python 3 for its built-in static file server. No package installation or API server is needed for this mode.
-
-```bash
-python -m http.server 8765 --bind 127.0.0.1
-```
-
-Open <http://127.0.0.1:8765/> and keep the terminal running while you use the dashboard. Stop the server with **Ctrl+C**.
-
-On first launch the dashboard copies `local-data.json` into the browser key `vera-local-workspace-v1`. Later changes persist in that browser profile on that computer. They do not sync to other users or devices. Clearing the site's localStorage removes the saved changes; a refresh seeds the original bundled data again.
-
-## Run the optional challenge API
-
-Requires Python 3.10 or newer.
 
 ```bash
 python -m venv .venv
