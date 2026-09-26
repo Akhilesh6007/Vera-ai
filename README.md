@@ -115,10 +115,3 @@ source-archive/           Challenge brief, seed inputs, and references
 ## Deploy
 
 The browser dashboard is a static site and is configured for Vercel through `vercel.json`. The optional Python challenge API is not part of this static deployment. GitHub Pages can also host the browser files from the repository root. In both cases, browser changes remain local to each visitor's browser.
-
-## Limitations
-
-- Browser localStorage is per-browser storage, not shared persistence or a database.
-- The optional API uses process memory and is intended for the challenge/demo, not horizontally scaled production state.
-- Messages are simulated drafts. No external messaging provider is connected.
-- Local metrics and evaluation output are for inspection and are not official judge results.
