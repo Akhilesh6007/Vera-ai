@@ -1,0 +1,272 @@
+[
+  {
+    "test_id": "T01",
+    "merchant": "Mylari South Indian Cafe",
+    "locality": "Indiranagar",
+    "category": "Restaurants & Cafes",
+    "trigger": "active_planning_intent",
+    "send_as": "vera",
+    "body": "Mylari South Indian Cafe, picking up your corporate bulk thali package idea. I can sketch a first version using only the details you confirm. What per-person budget should I work to?"
+  },
+  {
+    "test_id": "T02",
+    "merchant": "Zen Yoga Studio",
+    "locality": "Mylapore",
+    "category": "Gyms & Fitness",
+    "trigger": "active_planning_intent",
+    "send_as": "vera",
+    "body": "Zen Yoga Studio, picking up your kids yoga summer camp idea. I can sketch a first version using only the details you confirm. What per-person budget should I work to?"
+  },
+  {
+    "test_id": "T03",
+    "merchant": "Karim's Salon",
+    "locality": "Alambagh",
+    "category": "Salons & Beauty",
+    "trigger": "appointment_tomorrow",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Aditya, a reminder from Karim's Salon: you have an appointment tomorrow. Reply here if you need to change the time."
+  },
+  {
+    "test_id": "T04",
+    "merchant": "Beauty Lounge by Renu",
+    "locality": "Gomti Nagar",
+    "category": "Salons & Beauty",
+    "trigger": "appointment_tomorrow",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Riya, a reminder from Beauty Lounge by Renu: you have an appointment tomorrow. Reply here if you need to change the time."
+  },
+  {
+    "test_id": "T05",
+    "merchant": "Apollo Health Plus Pharmacy",
+    "locality": "Malviya Nagar",
+    "category": "Pharmacies & Medical Stores",
+    "trigger": "category_seasonal",
+    "send_as": "vera",
+    "body": "Apollo Health Plus Pharmacy, the summer demand update is relevant to your pharmacy in Jaipur. The supplied signal is ORS demand +40. Want a short shelf-priority summary?"
+  },
+  {
+    "test_id": "T06",
+    "merchant": "Dr. Meera's Dental Clinic",
+    "locality": "Lajpat Nagar",
+    "category": "Dentists",
+    "trigger": "cde_opportunity",
+    "send_as": "vera",
+    "body": "Dr. Meera's Dental Clinic, IDA Delhi: Digital impressions — 2026 state of the art is coming up on 2026-05-02. Fee: free for members. Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices. Want me to share the details?"
+  },
+  {
+    "test_id": "T07",
+    "merchant": "Apollo Health Plus Pharmacy",
+    "locality": "Malviya Nagar",
+    "category": "Pharmacies & Medical Stores",
+    "trigger": "chronic_refill_due",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Mr. Sharma, a refill reminder from Apollo Health Plus Pharmacy. Your current supply may run out by 2026-04-28. Reply here if you’d like the pharmacy to help. Available service: Free Home Delivery > ₹499."
+  },
+  {
+    "test_id": "T08",
+    "merchant": "Bright Smile Dental",
+    "locality": "Indiranagar",
+    "category": "Dentists",
+    "trigger": "chronic_refill_due",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Vivaan, a refill reminder from Bright Smile Dental. Reply here if you’d like the pharmacy to help."
+  },
+  {
+    "test_id": "T09",
+    "merchant": "Dr. Meera's Dental Clinic",
+    "locality": "Lajpat Nagar",
+    "category": "Dentists",
+    "trigger": "competitor_opened",
+    "send_as": "vera",
+    "body": "Dr. Meera's Dental Clinic, competitor opened may matter for your business in Delhi. Your current offer/service: Dental Cleaning @ ₹299. Want a short, category-specific plan?"
+  },
+  {
+    "test_id": "T10",
+    "merchant": "Mylari South Indian Cafe",
+    "locality": "Indiranagar",
+    "category": "Restaurants & Cafes",
+    "trigger": "competitor_opened",
+    "send_as": "vera",
+    "body": "Mylari South Indian Cafe, competitor opened may matter for your business in Bangalore. Your current offer/service: Weekday Lunch Thali @ ₹149. Want a short, category-specific plan?"
+  },
+  {
+    "test_id": "T11",
+    "merchant": "Studio11 Family Salon",
+    "locality": "Kapra",
+    "category": "Salons & Beauty",
+    "trigger": "curious_ask_due",
+    "send_as": "vera",
+    "body": "Studio11 Family Salon, I’m reaching out about curious ask due in Hyderabad. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T12",
+    "merchant": "Mylari South Indian Cafe",
+    "locality": "Indiranagar",
+    "category": "Restaurants & Cafes",
+    "trigger": "curious_ask_due",
+    "send_as": "vera",
+    "body": "Mylari South Indian Cafe, I’m reaching out about curious ask due in Bangalore. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T13",
+    "merchant": "PowerHouse Fitness",
+    "locality": "HSR Layout",
+    "category": "Gyms & Fitness",
+    "trigger": "customer_lapsed_hard",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Rashmi, we’d be happy to welcome you back to PowerHouse Fitness. Let us know if you’d like help finding a suitable time. Available service: 3 FREE Trial Classes."
+  },
+  {
+    "test_id": "T14",
+    "merchant": "Asha Dental Care",
+    "locality": "Sector 17",
+    "category": "Dentists",
+    "trigger": "customer_lapsed_soft",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Reyansh, we’d be happy to welcome you back to Asha Dental Care. Let us know if you’d like help finding a suitable time."
+  },
+  {
+    "test_id": "T15",
+    "merchant": "Daily Care Medicos",
+    "locality": "Alambagh",
+    "category": "Pharmacies & Medical Stores",
+    "trigger": "customer_lapsed_soft",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Reyansh, we’d be happy to welcome you back to Daily Care Medicos. Let us know if you’d like help finding a suitable time."
+  },
+  {
+    "test_id": "T16",
+    "merchant": "Glamour Lounge Spa & Salon",
+    "locality": "Aundh",
+    "category": "Salons & Beauty",
+    "trigger": "dormant_with_vera",
+    "send_as": "vera",
+    "body": "Glamour Lounge Spa & Salon, I’m reaching out about dormant with vera in Pune. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T17",
+    "merchant": "Chai Point Cafe",
+    "locality": "Sector 8",
+    "category": "Restaurants & Cafes",
+    "trigger": "dormant_with_vera",
+    "send_as": "vera",
+    "body": "Chai Point Cafe, I’m reaching out about dormant with vera in Chandigarh. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T18",
+    "merchant": "Studio11 Family Salon",
+    "locality": "Kapra",
+    "category": "Salons & Beauty",
+    "trigger": "festival_upcoming",
+    "send_as": "vera",
+    "body": "Studio11 Family Salon, festival upcoming may matter for your business in Hyderabad. Your current offer/service: Haircut @ ₹99. Want a short, category-specific plan?"
+  },
+  {
+    "test_id": "T19",
+    "merchant": "Bend & Burn",
+    "locality": "Koramangala",
+    "category": "Gyms & Fitness",
+    "trigger": "festival_upcoming",
+    "send_as": "vera",
+    "body": "Bend & Burn, festival upcoming may matter for your business in Bangalore. Want a short, category-specific plan?"
+  },
+  {
+    "test_id": "T20",
+    "merchant": "Sunrise Medicos",
+    "locality": "Gomti Nagar",
+    "category": "Pharmacies & Medical Stores",
+    "trigger": "gbp_unverified",
+    "send_as": "vera",
+    "body": "Sunrise Medicos, I’m reaching out about gbp unverified in Lucknow. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T21",
+    "merchant": "SK Pizza Junction",
+    "locality": "Sant Nagar",
+    "category": "Restaurants & Cafes",
+    "trigger": "ipl_match_today",
+    "send_as": "vera",
+    "body": "SK Pizza Junction, I’m reaching out about ipl match today in Delhi. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T22",
+    "merchant": "Mylari South Indian Cafe",
+    "locality": "Indiranagar",
+    "category": "Restaurants & Cafes",
+    "trigger": "milestone_reached",
+    "send_as": "vera",
+    "body": "Mylari South Indian Cafe, I’m reaching out about milestone reached in Bangalore. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T23",
+    "merchant": "Pizza Spot",
+    "locality": "Aundh",
+    "category": "Restaurants & Cafes",
+    "trigger": "milestone_reached",
+    "send_as": "vera",
+    "body": "Pizza Spot, I’m reaching out about milestone reached in Pune. Want me to look at the next step?"
+  },
+  {
+    "test_id": "T24",
+    "merchant": "Bharat Dental Care",
+    "locality": "Andheri West",
+    "category": "Dentists",
+    "trigger": "perf_dip",
+    "send_as": "vera",
+    "body": "Bharat Dental Care, your calls are down calls changed 50% over 7d (baseline: 12) in Mumbai. Want me to break down the change and suggest one next step?"
+  },
+  {
+    "test_id": "T25",
+    "merchant": "The Beauty Bar",
+    "locality": "Baner",
+    "category": "Salons & Beauty",
+    "trigger": "perf_dip",
+    "send_as": "vera",
+    "body": "The Beauty Bar, your performance are up (2547) in Pune. Want me to break down the change and suggest one next step?"
+  },
+  {
+    "test_id": "T26",
+    "merchant": "Zen Yoga Studio",
+    "locality": "Mylapore",
+    "category": "Gyms & Fitness",
+    "trigger": "perf_spike",
+    "send_as": "vera",
+    "body": "Zen Yoga Studio, your calls are up calls changed 15% over 7d (baseline: 18) in Chennai. Want me to break down the change and suggest one next step?"
+  },
+  {
+    "test_id": "T27",
+    "merchant": "Sunrise Medicos",
+    "locality": "Gomti Nagar",
+    "category": "Pharmacies & Medical Stores",
+    "trigger": "perf_spike",
+    "send_as": "vera",
+    "body": "Sunrise Medicos, your performance are up (720) in Lucknow. Want me to break down the change and suggest one next step?"
+  },
+  {
+    "test_id": "T28",
+    "merchant": "Dr. Meera's Dental Clinic",
+    "locality": "Lajpat Nagar",
+    "category": "Dentists",
+    "trigger": "recall_due",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Priya, a note from Dr. Meera's Dental Clinic: 6 month cleaning is due on 2026-11-12. Available times: Wed 5 Nov, 6pm, Thu 6 Nov, 5pm."
+  },
+  {
+    "test_id": "T29",
+    "merchant": "Zen Yoga Studio",
+    "locality": "Mylapore",
+    "category": "Gyms & Fitness",
+    "trigger": "recall_due",
+    "send_as": "merchant_on_behalf",
+    "body": "Hi Diya, a note from Zen Yoga Studio: recall due is due. Available service: First Month @ ₹499."
+  },
+  {
+    "test_id": "T30",
+    "merchant": "Dr. Meera's Dental Clinic",
+    "locality": "Lajpat Nagar",
+    "category": "Dentists",
+    "trigger": "regulation_change",
+    "send_as": "vera",
+    "body": "Dr. Meera's Dental Clinic, regulation change — d_2026W17_dci_radiograph may matter for your business in Delhi. Your current offer/service: Dental Cleaning @ ₹299. Want a short, category-specific plan?"
+  }
+]
